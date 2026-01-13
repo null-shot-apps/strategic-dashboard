@@ -60,7 +60,8 @@ export default function TodoApp() {
                 border: '2px solid #e0e0e0',
                 borderRadius: '6px',
                 outline: 'none',
-                transition: 'border-color 0.2s'
+                transition: 'border-color 0.2s',
+                color: '#000'
               }}
               onFocus={(e) => e.target.style.borderColor = '#4CAF50'}
               onBlur={(e) => e.target.style.borderColor = '#e0e0e0'}
@@ -153,4 +154,5 @@ export default function TodoApp() {
     </div>
   );
 }
+
 
